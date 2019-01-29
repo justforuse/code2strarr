@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code to String array</title>
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+      }
+      .left,
+      .right {
+        height: 75vh;
+        flex: 1;
+      }
+      .center {
+        width: 80px;
+        text-align: center;
+      }
+      textarea {
+        resize: none;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 align="center">Convert your code to string array</h2>
+    <div class="container">
+      <div class="left">
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Source code"></textarea>
+      </div>
+      <div class="center"><button onclick="convert()">convert</button></div>
+      <div class="right">
+        <textarea name="" id="result" cols="30" rows="10" placeholder="Result"></textarea>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
